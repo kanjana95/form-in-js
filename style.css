@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'sans-serif';
+    
+}
+body{
+    background: linear-gradient(purple 20%,rgb(31, 31, 134) 70%,lightblue);
+    background-repeat:no-repeat ;
+}
+.container{
+    height: 700px;
+}
+.box{
+    width: 400px;
+    height: auto;
+    background-color:white;
+    margin: auto;
+    /* color: aliceblue; */
+    border: 5px dodgerblue double;
+    /* padding: 1%; */
+}
+#form{
+ padding: 5px;
+ margin: 10px;
+}
+#form button{
+    background-color: blueviolet;
+    color: wheat;
+    border-radius: 5px;
+    border: 2px solid;
+    margin: 10px 0px;
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 100%;  /*100% put on occupai the full width*/
+}
+button:hover{
+     
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3px;
+}
+.input-group input{
+    border-radius: 2px;
+    font-size: 20px;
+    margin-top: 2px;
+    padding: 5px;
+    border: 2px solid rgb(20, 121, 188);
+    
+}
+.input-group label{
+    color: blueviolet;
+}
+.input-group input:focus{
+    outline: 0;
+}
+.input-group .error{
+ color: red;
+ font-size: 15px;
+ margin-top: 2px;
+
+}
+.input-group.success input{
+    border-color: rgb(8, 228, 8);
+    
+}
+.input-group.error input{
+  border-color: red;
+}
+.box h3{
+    text-align: center;
+   color: blueviolet;
+   margin-top: 2px;
+}
+/* .box  label:nth-child(2){
+    padding: 20px;
+    color: brown;
+} */
+
